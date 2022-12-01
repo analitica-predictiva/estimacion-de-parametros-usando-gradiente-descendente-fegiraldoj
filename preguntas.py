@@ -22,7 +22,7 @@ def pregunta_01():
     data = pd.read_csv("data.csv")
 
     # Cree un objeto de tipo `PolynomialFeatures` con grado `2`
-    # poly = ___.___(___)
+    
     poly = PolynomialFeatures(2)
 
     # Transforme la columna `x` del dataset `data` usando el objeto `poly`
